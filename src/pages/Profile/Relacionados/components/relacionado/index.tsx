@@ -33,6 +33,7 @@ const Relacionados: React.FC<IProps> = ({
   idContato,
   handleDelete,
 }: IProps) => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const [isAvailable, setIsAvailable] = useState(true);
   const history = useHistory();
   const { updateUrl, updateUrlPerfil } = useMenu();
