@@ -80,12 +80,12 @@ const MenuLeft: React.FC = () => {
 
         <Separator />
 
-        <Button
+        {/* <Button
           onClick={() => ativarMenu('contatos2')}
           className={url === 'contatos2' ? 'active' : ''}
         >
           <FaUser size={18} /> <span>Contatos 2</span>
-        </Button>
+        </Button> */}
 
         {/*
         <Button
